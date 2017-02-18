@@ -1,0 +1,4 @@
+1.	shebang construct => #!/usr/bash
+	(echo $SHELL)
+2.	
+3.	

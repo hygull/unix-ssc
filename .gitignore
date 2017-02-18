@@ -1,0 +1,8 @@
+.
+..
+
+#for window based systems that in which cygwin or any other tools are being used to execute unix commands
+*.hs
+*.xtt
+*.ttx
+*.exe

@@ -1,0 +1,18 @@
+[Sun Feb 19 56]echo $SHELL
+/bin/bash
+[Sun Feb 19 57]ls /
+Applications			cores				private
+Library				dev				sbin
+Network				etc				tmp
+System				home				usr
+Users				installer.failurerequests	var
+Volumes				net
+bin				opt
+[Sun Feb 19 58]ls /bin/
+[		date		expr		ln		pwd		stty		zsh
+bash		dd		hostname	ls		rcp		sync
+cat		df		kill		mkdir		rm		tcsh
+chmod		domainname	ksh		mv		rmdir		test
+cp		echo		launchctl	pax		sh		unlink
+csh		ed		link		ps		sleep		wait4path
+[Sun Feb 19 59]
