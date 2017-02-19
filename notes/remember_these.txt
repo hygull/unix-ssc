@@ -22,5 +22,9 @@
 
     ...http://stackoverflow.com/questions/13617843/unary-operator-expected#comment18680683_13618376
 
-
+16. admins-MacBook-Pro-3:unix-ssc admin$ echo ${a[@]}
+	2 3 4 67
+	admins-MacBook-Pro-3:unix-ssc admin$ echo ${#a[@]}
+	4
+17. 
 
