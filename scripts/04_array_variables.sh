@@ -19,9 +19,23 @@ echo "All cities : "${CITIES[*]}
 #Printing al elements(2nd way)
 echo "All cities : "${CITIES[@]}
 
+#Defining an array of names
+NAME[0]="Monty"
+NAME[1]="Shivesh"
+NAME[2]="Adrian"
+NAME[3]='James'
+NAME[4]="Pratik"
+NAME[5]="Guru"
+NAME[6]="Surya"
+#Printing all names
+echo -n "Some friends : "
+echo ${NAME[*]}
+
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ ./04_array_variables.sh 
 # First  city in the list : Bangalore
 # Second city in the list : Delhi
 # Third  city in the list : Raipur
 # All cities : Bangalore Delhi Raipur London
 # All cities : Bangalore Delhi Raipur London
+# Some friends : Monty Shivesh Adrian James Pratik Guru Surya

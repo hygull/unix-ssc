@@ -3,7 +3,7 @@
 #------------- Description ------------------------
 #	*Date of creation : 19 Feb 2017
 #	*Aim of script    : using special variables.
-#	*Created by		  : Rishikesh Agrawani
+#	*Created by       : Rishikesh Agrawani
 
 #------------- Script -----------------------------
 #Don't forget to comment

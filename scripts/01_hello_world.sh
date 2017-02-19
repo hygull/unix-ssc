@@ -3,7 +3,7 @@
 #------------- Description ------------------------
 #	*Date of creation : 19 Feb 2017
 #	*Aim of script    : To read an input from keyboard and respond user
-#	*Created by		  : Rishikesh Agrawani
+#	*Created by       : Rishikesh Agrawani
 
 #------------- Script -----------------------------
 #Ask user for his name
