@@ -1,0 +1,22 @@
+Types => basically 3 types ... 1)local variables, 2) environment variables, 3) shell varibles
+
+Special variables => 	$0(script name), 
+						$?(exit status of previous command), 
+						$1, 
+						$*, 
+						$@, 
+						$#(no. of parameters),
+						$!(process number of last bg command), 
+						$$(process number of current shell, for shell script, this is the process ID under which they are executing)
+
+1.	Scalar variable(1 value at a time)
+	NAME = "Malinikesh"
+2.	PI=3.14
+	readonly PI
+	PI='Pi'				#Error
+
+3.	PI=3.14
+	echo $PI
+	unset PI 			#Remove from list of varibales that shell tracks(it won't work for readonly)
+	echo $PI 			#blank
+

@@ -1,4 +1,7 @@
 1.	shebang construct => #!/usr/bash
 	(echo $SHELL)
-2.	
-3.	
+2.	If you will forget to include the above line then you can get unwanted output. 
+3.	The name of a variable can contain only letters (a to z or A to Z), numbers ( 0 to 9) or the
+	underscore character _ .
+4.  chmode +x script.sh ... follwed by ... ./script.sh  ... gives proper result for (echo -n "any text")
+	but doesn't give for (sh script.sh). It works for (bash script.sh).
