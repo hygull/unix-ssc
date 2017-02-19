@@ -5,3 +5,9 @@
 	underscore character _ .
 4.  chmode +x script.sh ... follwed by ... ./script.sh  ... gives proper result for (echo -n "any text")
 	but doesn't give for (sh script.sh). It works for (bash script.sh).
+5.	Array creation : CITIES=("Bangalore","London","Delhi")
+6.  Array elements accessing syntax : ${array_name[index]}
+7.	CITIES=("Bangalore" "Delhi" "Raipur" "London") is correct
+8.  CITIES = ("Bangalore" "Delhi" "Raipur" "London") is not correct
+9.  To access all elements : ${CITIES[*]} ... ${CITIES[@]}
+10.	$?, $*(Single line o/p), $@(Separate lines o/p) ... printf
