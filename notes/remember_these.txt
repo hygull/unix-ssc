@@ -17,4 +17,10 @@
 	Correct =>  while [ $index -le $n ] 
 14. Don't forget to include ==> fi ...otherwise
 	syntax error: unexpected end of file
-15. 
+15. If [[ ${a[`expr $j`]} -gt ${a[`expr $j + 1`]} ]] #<  ... no such file or directory, In 
+    absence of [[ ]] ... ./09_bubble_sort.sh: line 22: [: 9: unary operator expected
+
+    ...http://stackoverflow.com/questions/13617843/unary-operator-expected#comment18680683_13618376
+
+
+
