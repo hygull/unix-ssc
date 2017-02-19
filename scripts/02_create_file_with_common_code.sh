@@ -3,7 +3,7 @@
 #------------- Description ------------------------
 #	*Date of creation : 19 Feb 2017
 #	*Aim of script    : To crete a new file based on the user input
-#	*Created by		  : Rishikesh Agrawani
+#	*Created by       : Rishikesh Agrawani
 
 #------------- Script -----------------------------
 #Ask user for the name of file
