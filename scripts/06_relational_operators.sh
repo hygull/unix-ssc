@@ -5,6 +5,7 @@
 #	*Aim of script    : To use relational operators
 #	*Created by       : Rishikesh Agrawani
 
+
 #------------- Script -----------------------------
 #Defining variables
 a=1729
