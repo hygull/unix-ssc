@@ -1,0 +1,23 @@
+admins-MacBook-Pro-3:~ admin$ for s in $a; do echo $s; done
+9
+admins-MacBook-Pro-3:~ admin$ echo $a
+9
+admins-MacBook-Pro-3:~ admin$ ${a[*]}
+-bash: 9: command not found
+admins-MacBook-Pro-3:~ admin$ echo ${a[*]}
+9 1 8 2 7 3 6 4 5 0
+admins-MacBook-Pro-3:~ admin$ for s in ${a[*]}; do echo $s; done
+9
+1
+8
+2
+7
+3
+6
+4
+5
+0
+admins-MacBook-Pro-3:~ admin$ for num in ${a[@]}; do s=`expr $s + $num`; done
+admins-MacBook-Pro-3:~ admin$ echo $s
+45
+admins-MacBook-Pro-3:~ admin$ 

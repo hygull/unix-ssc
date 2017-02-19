@@ -13,3 +13,8 @@
 10.	$?, $*(Single line o/p), $@(Separate lines o/p) ... printf
 11. Bourne Shell supports the following relational operators that are specific to numeric values.
 12. These operators do not work for string values unless their value is numeric.
+13. while [ index -le $n ] ...  [: index: integer expression expected
+	Correct =>  while [ $index -le $n ] 
+14. Don't forget to include ==> fi ...otherwise
+	syntax error: unexpected end of file
+15. 
