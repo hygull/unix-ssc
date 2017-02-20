@@ -16,6 +16,6 @@ CITY=Bangalore<br>$CITY | Bangalore
 admins-MacBook-Pro-3:~ admin$ CITIES=("Bangalore" "Delhi" "Raipur" "London")<br>admins-MacBook-Pro-3:~ admin$ echo ${CITIES[0]} | Bangalore
 admins-MacBook-Pro-3:~ admin$ echo ${CITIES[*]} | Bangalore Delhi Raipur London
 admins-MacBook-Pro-3:~ admin$ echo ${CITIES[@]} | Bangalore Delhi Raipur London
-admins-MacBook-Pro-3:unix-ssc admin$ echo ${a[@]} | 2 3 4 67
+admins-MacBook-Pro-3:unix-ssc admin$ a=(2 3 4 67)<br>admins-MacBook-Pro-3:unix-ssc admin$ echo ${a[@]} | 2 3 4 67
 admins-MacBook-Pro-3:unix-ssc admin$ echo ${#a[@]} | 4
 

@@ -26,5 +26,10 @@
 	2 3 4 67
 	admins-MacBook-Pro-3:unix-ssc admin$ echo ${#a[@]}
 	4
-17. 
+17. && in place of -a [ $a -gt $p -a ${a[`expr $q + 1`]} -gt ${a[`expr $p - 1`]}]   ... bad array subscript ... too many arguments ....https://stackoverflow.com/questions/13781216/bash-meaning-of-too-many-arguments-error-from-if-square-brackets/16789916#16789916
+
+	while [ $j -gt 0  -a [ ${a[`expr $j - 1`]} -gt ${a[`expr $j`]} ] ...error
+	while [ $j -gt 0 ] && [ ${a[`expr $j - 1`]} -gt ${a[`expr $j`]} ] ... ok ...finally I succeeded
+
+18. 
 

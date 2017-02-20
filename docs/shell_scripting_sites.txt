@@ -5,3 +5,6 @@ http://osxdaily.com/2009/09/25/what-shell-am-i-using/
 http://alvinalexander.com/text/how-put-multiple-lines-markdown-table-cell-multiline-table
 
 http://stackoverflow.com/questions/13617843/unary-operator-expected#comment18680683_13618376
+
+(bad array subscript ... too many arguments ... insertion sort)
+https://stackoverflow.com/questions/13781216/bash-meaning-of-too-many-arguments-error-from-if-square-brackets/16789916#16789916
