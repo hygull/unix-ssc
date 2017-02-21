@@ -39,6 +39,7 @@ then
 fi
 
 # -------- Ouptut(Script Part 1 is also a part) ---
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 12_if_else_elif_fi.sh 
 # admins-MacBook-Pro-3:scripts admin$ ./12_if_else_elif_fi.sh 
 # A great place to learn.
 # I visited Quora.

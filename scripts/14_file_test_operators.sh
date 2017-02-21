@@ -66,6 +66,7 @@ else
 fi
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 14_file_test_operators.sh 
 # admins-MacBook-Pro-3:scripts admin$ ./14_file_test_operators.sh 
 # 00_common_code.sh exists in the current directory.
 # 00_common_code.sh has read permission.

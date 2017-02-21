@@ -47,6 +47,7 @@ else
 fi
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 05_arithmetic_operators.sh 
 # admins-MacBook-Pro-3:scripts admin$ ./05_arithmetic_operators.sh 
 # 1729 + 71 = 1800
 # 1729 - 71 = 1658

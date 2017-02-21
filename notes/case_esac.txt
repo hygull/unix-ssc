@@ -1,0 +1,12 @@
+admins-MacBook-Pro-3:unix-ssc admin$ a=10
+admins-MacBook-Pro-3:unix-ssc admin$ case $a in
+> `expr 3 + 9`) echo "I am 9"
+> ;;
+> `expr 2 - 5`) echo "I am -3"
+> ;;
+> `expr 9 + 1`) echo "I am 10"
+> ;;
+> `expr 5 - 2`) echo "I am 3"
+> ;;
+> esac
+I am 10

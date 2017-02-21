@@ -41,6 +41,7 @@ else
 fi
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 07_num_greatness.sh 
 # admins-MacBook-Pro-3:scripts admin$ bash 07_num_greatness.sh 
 # Enter the value of 1st integer number : 12
 # Enter the value of 2nd integer number : 10

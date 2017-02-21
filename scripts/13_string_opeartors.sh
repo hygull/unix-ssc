@@ -58,6 +58,7 @@ else
 fi
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 13_string_opeartors.sh 
 # admins-MacBook-Pro-3:scripts admin$ ./13_string_opeartors.sh 
 # I like programming.
 # Bangalore is IT city in India.

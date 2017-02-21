@@ -32,6 +32,7 @@ echo -n "Some friends : "
 echo ${NAME[*]}
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 04_array_variables.sh
 # admins-MacBook-Pro-3:scripts admin$ ./04_array_variables.sh 
 # First  city in the list : Bangalore
 # Second city in the list : Delhi

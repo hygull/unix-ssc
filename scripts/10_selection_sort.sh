@@ -35,6 +35,7 @@ echo ${a[*]}
 echo ""
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 10_selection_sort.sh 
 # admins-MacBook-Pro-3:scripts admin$ ./10_selection_sort.sh 
 # Before sorting :-
 # 9 -4 8 -7 10 6 -34 3 9 -100 1 200 -49 0

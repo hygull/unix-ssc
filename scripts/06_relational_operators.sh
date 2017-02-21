@@ -62,6 +62,7 @@ else
 fi
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 06_relational_operators.sh 
 # admins-MacBook-Pro-3:scripts admin$ ./06_relational_operators.sh 
 # I was born on 1992
 # I was born on 1992

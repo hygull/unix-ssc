@@ -35,6 +35,7 @@ echo ${a[*]}
 echo ""
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 09_bubble_sort.sh 
 # admins-MacBook-Pro-3:scripts admin$ ./09_bubble_sort.sh 
 # Before sorting :-
 # 9 1 8 2 7 3 6 4 0

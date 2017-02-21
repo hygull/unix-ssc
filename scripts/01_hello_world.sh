@@ -16,6 +16,7 @@ read NAME
 echo "Oh! you are $NAME. Nice to meet you."
 
 # ------------ Ouptut -----------------------------
+# [Sun Feb 19 61]chmod +x hello_world.sh 
 # [Sun Feb 19 61]./hello_world.sh 
 # What is your name?
 # > Rishikesh Agrawani

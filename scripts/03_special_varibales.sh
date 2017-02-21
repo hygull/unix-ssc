@@ -22,6 +22,7 @@ echo "First arg  : $1"
 echo "Second arg : "$2
 
 # ------------ Ouptut -----------------------------
+# [Sun Feb 19 185]chmod +x 03_special_varibales.sh
 # [Sun Feb 19 185]bash 03_special_varibales.sh "rishikesh" "agrawani"
 # Currently runnng script name : 03_special_varibales.sh
 # Number of argument passed : 2

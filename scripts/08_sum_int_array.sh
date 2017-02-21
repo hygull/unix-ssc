@@ -30,6 +30,7 @@ else
 fi
 
 # ------------ Ouptut -----------------------------
+# admins-MacBook-Pro-3:scripts admin$ chmod +x 08_sum_int_array.sh 
 # admins-MacBook-Pro-3:scripts admin$ ./08_sum_int_array.sh 
 # How many integer numbers you wanna add?
 # > 10
