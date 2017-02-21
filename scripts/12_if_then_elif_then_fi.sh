@@ -42,4 +42,3 @@ fi
 # admins-MacBook-Pro-3:scripts admin$ ./12_if_else_elif_fi.sh 
 # A great place to learn.
 # I visited Quora.
-
