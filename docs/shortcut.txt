@@ -1,0 +1,3 @@
+SBI : Selection, Bubble, Insertion
+
+QMH : Quick, Merge, Heap(Similar to selection sort)

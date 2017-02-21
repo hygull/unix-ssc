@@ -1,0 +1,48 @@
+admins-MacBook-Pro-3:~ admin$ if [ $a -eq 0 -o $b -eq 0]; then echo "final"; else echo "great"
+> fi
+-bash: [: missing `]'
+great
+admins-MacBook-Pro-3:~ admin$ if [ $a -eq 0 -o $b -eq 0]; then echo "final"; else echo "great"; fi
+-bash: [: missing `]'
+great
+admins-MacBook-Pro-3:~ admin$ if [ $a -eq 0 -o $b -eq 0 ]; then echo "final"; else echo "great"; fi
+great
+admins-MacBook-Pro-3:~ admin$ if [ $a -eq 0 -o $b -eq 20 ]; then echo "final"; else echo "great"; fi
+final
+admins-MacBook-Pro-3:~ admin$ if [ $a -eq 0 -o $b -eq 0 ]; then echo "final"; else echo "great"; fi
+great
+admins-MacBook-Pro-3:~ admin$ if [ $a -eq 10 -o $b -eq 0 ]; then echo "final"; else echo "great"; fi
+final
+admins-MacBook-Pro-3:~ admin$ if [ $a -eq 10 -a $b -eq 0 ]; then echo "final"; else echo "great"; fi
+great
+admins-MacBook-Pro-3:~ admin$ if [ $a -eq 10 -o $b -eq 0 ]; then echo "final"; else echo "great"; fi
+final
+admins-MacBook-Pro-3:~ admin$ if [ !$a -eq 10 -o $b -eq 0 ]; then echo "final"; else echo "great"; fi
+if [ fia -eq 10 -o $b -eq 0 ]; then echo "final"; else echo "great"; fi
+-bash: [: fia: integer expression expected
+great
+admins-MacBook-Pro-3:~ admin$ if [  ! $a -eq 10 -o $b -eq 0 ]; then echo "final"; else echo "great"; fi
+great
+admins-MacBook-Pro-3:~ admin$ if [  ! $a -eq 10 -o $b -eq 0 ]; then echo "final"; else echo "great"; fi
+great
+admins-MacBook-Pro-3:~ admin$ if [  ! $a -eq 10 -o ! $b -eq 0 ]; then echo "final"; else echo "great"; fi
+final
+
+
+admins-MacBook-Pro-3:~ admin$ echo $a
+10
+admins-MacBook-Pro-3:~ admin$ echo $b
+20
+admins-MacBook-Pro-3:~ admin$ c=30
+admins-MacBook-Pro-3:~ admin$ echo $c
+30
+admins-MacBook-Pro-3:~ admin$ if [ $a -gt $b ]
+> then
+> echo "Hello"
+> elif [ $a -lt $c ]
+> then 
+> echo "Nice"
+> fi
+Nice
+admins-MacBook-Pro-3:~ admin$ if [ $a -gt $b ]; then echo "Hello"; elif [ $a -lt $c ]; then  echo "Nice"; fi; fi
+-bash: syntax error near unexpected token `fi'

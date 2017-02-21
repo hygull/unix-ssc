@@ -31,5 +31,7 @@
 	while [ $j -gt 0  -a [ ${a[`expr $j - 1`]} -gt ${a[`expr $j`]} ] ...error
 	while [ $j -gt 0 ] && [ ${a[`expr $j - 1`]} -gt ${a[`expr $j`]} ] ... ok ...finally I succeeded
 
-18. 
+18. Heap sort is a comparison based sorting technique based on Binary Heap data structure.
+
+19. 
 
