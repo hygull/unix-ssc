@@ -1,0 +1,9 @@
+I/O Redirection
+
+here document
+
+variable substitution
+
+command substitution
+
+

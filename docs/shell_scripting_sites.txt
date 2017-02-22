@@ -8,3 +8,6 @@ http://stackoverflow.com/questions/13617843/unary-operator-expected#comment18680
 
 (bad array subscript ... too many arguments ... insertion sort)
 https://stackoverflow.com/questions/13781216/bash-meaning-of-too-many-arguments-error-from-if-square-brackets/16789916#16789916
+
+(-e)
+http://www.unix.com/shell-programming-and-scripting/21112-insert-tab-echo-statement.html

@@ -1,0 +1,28 @@
+admins-MacBook-Pro-3:scripts admin$ wc -l << end_now
+> This is a great
+> place to work
+> in India.
+> So don't lose
+> the chance.
+> end_now
+       5
+
+
+admins-MacBook-Pro-3:scripts admin$ cat << end_now
+> #include<stdio.h>
+> #include<conio.h>
+> int main()
+> {
+>   printf("Hello C programmers");
+>   getch();
+>   return 0;
+> }
+> end_now
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("Hello C programmers");
+  getch();
+  return 0;
+}
