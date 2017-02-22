@@ -33,5 +33,11 @@
 
 18. Heap sort is a comparison based sorting technique based on Binary Heap data structure.
 
-19. 
+19. https://www.tutorialspoint.com/unix/unix-quoting-mechanisms.htm (Read it again)
+
+20. variable substitution, command substitution, case...esac
+
+21. Metacharacters, Quoting mechanism
+
+
 
