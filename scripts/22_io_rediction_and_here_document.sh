@@ -2,7 +2,7 @@
 
 #------------- Description ------------------------
 #	*Date of creation : 22 Feb 2017
-#	*Aim of script    : _
+#	*Aim of script    : here document & io redirection
 #	*Created by       : Rishikesh Agrawani
 
 #------------- Script -----------------------------
